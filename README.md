@@ -11,10 +11,20 @@ Create a secret-key.txt (content may be random, e.g. <http://stackoverflow.com/q
 
     cat "1234567890" > "src/EliteDangerousDatabase/secret-key.txt"
 
+
 ## Run Application
+
+Prepare the test installation:
+
+    cd src
+    python EliteDangerousDatabase/manage.py migrate
+    python EliteDangerousDatabase/manage.py loaddata initial_data
+    python EliteDangerousDatabase/manage.py createsuperuser
 
 Run the test server:
 
-    cd src
     python EliteDangerousDatabase/manage.py runserver 8000
     
+Open in browser:
+    http://127.0.0.1:8000
+    http://127.0.0.1:8000/admin
