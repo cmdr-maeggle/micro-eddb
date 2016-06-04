@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% load eddb_tags %}
+
+{% block content %}
+    <table class="table">
+        <colgroup>
+            <col width="" />
+            <col width="200px" />
+            <col width="200px" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Resource Name</th>
+                <th>Resource Type</th>
+                <th>Rarity</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for resource in resource_list %}
+                <tr>
+                    <th><a href="{% url "resources:resource_detail" pk=resource.pk %}">{{ resource }}</a></th>
+                    <td>{{ resource.get_type_display }}</td>
+                    <td>{% display_grade resource.grade %}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

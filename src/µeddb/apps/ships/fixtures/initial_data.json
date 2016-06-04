@@ -1,0 +1,536 @@
+[
+  {
+    "model": "ships.manufacturer",
+    "pk": 1,
+    "fields": {
+      "name": "Core Dynamics"
+    }
+  },
+  {
+    "model": "ships.manufacturer",
+    "pk": 2,
+    "fields": {
+      "name": "Faulcon DeLacy"
+    }
+  },
+  {
+    "model": "ships.manufacturer",
+    "pk": 3,
+    "fields": {
+      "name": "Gutamaya"
+    }
+  },
+  {
+    "model": "ships.manufacturer",
+    "pk": 4,
+    "fields": {
+      "name": "Lakon"
+    }
+  },
+  {
+    "model": "ships.manufacturer",
+    "pk": 5,
+    "fields": {
+      "name": "Saud Kruger"
+    }
+  },
+  {
+    "model": "ships.manufacturer",
+    "pk": 6,
+    "fields": {
+      "name": "Zorgon Peterson"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 1,
+    "fields": {
+      "manufacturer": 6,
+      "name": "Adder",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 2,
+    "fields": {
+      "manufacturer": 2,
+      "name": "Anaconda",
+      "pad_size": "L"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 3,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Asp Explorer",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 4,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Asp Scout",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 5,
+    "fields": {
+      "manufacturer": 2,
+      "name": "Cobra Mk III",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 6,
+    "fields": {
+      "manufacturer": 2,
+      "name": "Cobra Mk IV",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 7,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Diamondback Explorer",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 8,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Diamondback Scout",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 9,
+    "fields": {
+      "manufacturer": 1,
+      "name": "Eagle",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 10,
+    "fields": {
+      "manufacturer": 1,
+      "name": "Federal Assault Ship",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 11,
+    "fields": {
+      "manufacturer": 1,
+      "name": "Federal Corvette",
+      "pad_size": "L"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 12,
+    "fields": {
+      "manufacturer": 1,
+      "name": "Federal Dropship",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 13,
+    "fields": {
+      "manufacturer": 1,
+      "name": "Federal Gunship",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 14,
+    "fields": {
+      "manufacturer": 6,
+      "name": "Fer-de-Lance",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 15,
+    "fields": {
+      "manufacturer": 6,
+      "name": "Hauler",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 16,
+    "fields": {
+      "manufacturer": 3,
+      "name": "Imperial Clipper",
+      "pad_size": "L"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 17,
+    "fields": {
+      "manufacturer": 3,
+      "name": "Imperial Courier",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 18,
+    "fields": {
+      "manufacturer": 3,
+      "name": "Imperial Cutter",
+      "pad_size": "L"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 19,
+    "fields": {
+      "manufacturer": 3,
+      "name": "Imperial Eagle",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 20,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Keelback",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 21,
+    "fields": {
+      "manufacturer": 5,
+      "name": "Orca",
+      "pad_size": "L"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 22,
+    "fields": {
+      "manufacturer": 2,
+      "name": "Python",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 23,
+    "fields": {
+      "manufacturer": 2,
+      "name": "Sidewinder",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 24,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Type-6 Transporter",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 25,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Type-7 Transporter",
+      "pad_size": "L"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 26,
+    "fields": {
+      "manufacturer": 4,
+      "name": "Type-9 Heavy",
+      "pad_size": "L"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 27,
+    "fields": {
+      "manufacturer": 2,
+      "name": "Viper Mk III",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 28,
+    "fields": {
+      "manufacturer": 2,
+      "name": "Viper Mk IV",
+      "pad_size": "S"
+    }
+  },
+  {
+    "model": "ships.ship",
+    "pk": 29,
+    "fields": {
+      "manufacturer": 1,
+      "name": "Vulture",
+      "pad_size": "M"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 1,
+    "fields": {
+      "name": "Power Plant"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 2,
+    "fields": {
+      "name": "Power Distributor"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 3,
+    "fields": {
+      "name": "Frame Shift Drive"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 4,
+    "fields": {
+      "name": "Thrusters"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 5,
+    "fields": {
+      "name": "Sensors"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 6,
+    "fields": {
+      "name": "Bulkheads"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 7,
+    "fields": {
+      "name": "Life Support"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 8,
+    "fields": {
+      "name": "Auto Field-Maintenance Unit"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 9,
+    "fields": {
+      "name": "Shield Generator"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 10,
+    "fields": {
+      "name": "Cargo Rack"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 11,
+    "fields": {
+      "name": "Cargo Scanner"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 12,
+    "fields": {
+      "name": "Cargo Scoop"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 13,
+    "fields": {
+      "name": "Chaff Launcher"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 14,
+    "fields": {
+      "name": "Discovery Scanner"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 15,
+    "fields": {
+      "name": "Surface Scanner"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 16,
+    "fields": {
+      "name": "Electronic Countermeasure"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 17,
+    "fields": {
+      "name": "Frame Shift Drive Interdictor"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 18,
+    "fields": {
+      "name": "Frame Shift Wake Scanner"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 19,
+    "fields": {
+      "name": "Fuel Scoop"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 20,
+    "fields": {
+      "name": "Fuel Tank"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 21,
+    "fields": {
+      "name": "Heat Sink Launcher"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 22,
+    "fields": {
+      "name": "Hull Reinforcement Package"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 23,
+    "fields": {
+      "name": "Kill Warrant Scanner"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 24,
+    "fields": {
+      "name": "Limpet Controller: Collector"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 25,
+    "fields": {
+      "name": "Limpet Controller: Fuel Transfer"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 26,
+    "fields": {
+      "name": "Limpet Controller: Hatch Breaker"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 27,
+    "fields": {
+      "name": "Limpet Controller: Prospector"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 28,
+    "fields": {
+      "name": "Planetary Vehicle Hangar"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 29,
+    "fields": {
+      "name": "Point Defence Turret"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 30,
+    "fields": {
+      "name": "Refinery"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 31,
+    "fields": {
+      "name": "Shield Booster"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 32,
+    "fields": {
+      "name": "Shield Cell Bank"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 33,
+    "fields": {
+      "name": "Docking Computer"
+    }
+  }
+]

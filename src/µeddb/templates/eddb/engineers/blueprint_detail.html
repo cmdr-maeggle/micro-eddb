@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% load eddb_tags %}
+
+{% block content %}
+    <h1>
+        <small>{{ blueprint.module_type }}</small><br />
+        {{ blueprint.name }} <small>{% display_grade blueprint.grade %}</small>
+    </h1>
+
+    <table class="table">
+        <caption>Required Resources:</caption>
+        <thead>
+            <th>Resource</th>
+            <th>Amount</th>
+        </thead>
+        <tbody>
+            {% for requirement in blueprint.requirements.all %}
+                <tr>
+                    <th>
+                        <a href="{% url "resources:resource_detail" pk=requirement.resource.pk %}">{{ requirement.resource.name }}</a>
+                        <small>{% display_grade requirement.resource.grade %}</small>
+                    </th>
+                    <td>{{ requirement.amount|default:"n.a." }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

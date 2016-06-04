@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ resource }}
+        <small>{{ resource.get_grade_display }} {{ resource.get_type_display }}</small>
+    </h1>
+
+    {% if resource.description %}
+        <div class="lead">{{ resource.description }}</div>
+    {% endif %}
+
+    <h2>Sources</h2>
+
+    <div>t.b.d.</div>
+
+    <h2>Used for Modifications:</h2>
+    <table class="table">
+        <caption class="sr-only">Used for Modifications:</caption>
+        <thead>
+            <th>Modification</th>
+            <th>Grade</th>
+            <th>Amount</th>
+        </thead>
+        <tbody>
+            {% for blueprint_requirement in resource.required_for.all %}
+                <tr>
+                    <th><a href="{% url "engineers:blueprint_detail" pk=blueprint_requirement.blueprint.pk %}">{{ blueprint_requirement.blueprint.name }}</a></th>
+                    <td>{{ blueprint_requirement.blueprint.grade }}</td>
+                    <td>{{ blueprint_requirement.amount|default:"n.a." }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
