@@ -1,3 +1,4 @@
 *.sqlite3
 *.pyc
 src/EliteDangerousDatabase/.secret-key.txt
+.idea/inspectionProfiles/profiles_settings.xml
