@@ -7,7 +7,9 @@ from .models import Engineer, Blueprint, BlueprintRequirement
 
 @admin.register(Engineer)
 class EngineerAdmin(admin.ModelAdmin):
-    pass
+    filter_horizontal = (
+        "blueprints",
+    )
 
 
 @admin.register(Blueprint)
@@ -20,8 +22,12 @@ class BlueprintAdmin(admin.ModelAdmin):
         model = BlueprintRequirement
         max_num = 5
 
+    class EngineerInline(admin.TabularInline):
+        model = Engineer.blueprints.through
+
     inlines = [
         BlueprintRequirementInline,
+        EngineerInline
     ]
 
 

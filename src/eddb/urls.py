@@ -6,7 +6,7 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     url(r"^$", TemplateView.as_view(template_name="index.html")),
-    url(r"^ships/", include("µeddb.apps.ships.urls")),
-    url(r"^engineers/", include("µeddb.apps.engineers.urls")),
-    url(r"^resources/", include("µeddb.apps.resources.urls")),
+    url(r"^ships/", include("eddb.apps.ships.urls")),
+    url(r"^engineers/", include("eddb.apps.engineers.urls")),
+    url(r"^resources/", include("eddb.apps.resources.urls")),
 ]

@@ -5,7 +5,7 @@ A small web application for Elite Dangerous players (wip)
 
 Install Python and Django:
 
-    python -m pip install django==1.9.3
+    python -m pip install -r "src/eddb/requirements.txt"
 
 Create a secret-key.txt (content may be random, e.g. <http://stackoverflow.com/questions/4664724/distributing-django-projects-with-unique-secret-keys>)
 
@@ -23,6 +23,7 @@ Prepare the test installation:
 
 Run the test server:
 
+    cd src
     python EliteDangerousDatabase/manage.py runserver 8000
     
 Open in browser:

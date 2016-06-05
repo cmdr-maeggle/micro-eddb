@@ -4,15 +4,34 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 
 
+ALLEGIENCE_CHOICES = (
+    (0, "Indipendent"),
+    (1, "Federation"),
+    (2, "Empire"),
+    (3, "Alliance"),
+)
+
+
 class Engineer(models.Model):
     """
     Engineers with backstories written by Michael effin Brookes...
     """
 
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
     description = models.TextField(blank=True, default="")
+    allegience = models.PositiveSmallIntegerField(default=0, choices=ALLEGIENCE_CHOICES)
 
-    blueprints = models.ManyToManyField("Blueprint")
+    # TODO remove when we can add an actual Station model reference
+    location_name = models.CharField(max_length=100, blank=True, default="")
+
+    blueprints = models.ManyToManyField("Blueprint", related_name="engineers")
+
+    def __str__(self):
+        return self.name
+
+    @property  # TODO replace with reference to an actual Station model instance (t.b.d.)
+    def location(self):
+        return self.location_name
 
 
 class Blueprint(models.Model):

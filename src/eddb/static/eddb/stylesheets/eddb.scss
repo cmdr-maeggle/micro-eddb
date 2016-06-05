@@ -1,0 +1,22 @@
+$icon-font-path: "/static/bootstrap/fonts/bootstrap/";
+
+@import "bootswatch/cosmo/variables";
+@import "bootstrap/stylesheets/bootstrap";
+@import "bootswatch/cosmo/bootswatch";
+
+@warn $icon-font-path;
+
+.form {
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='number'],
+  textarea,
+  select {
+    @extend .form-control;
+  }
+
+  select[multiple] {
+    min-height: 100px;
+  }
+}

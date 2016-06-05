@@ -3,7 +3,7 @@
 from django.conf.urls import url
 from django.views.generic import ListView
 
-from µeddb.apps.ships.models import Ship
+from eddb.apps.ships.models import Ship
 
 app_name = "ships"
 

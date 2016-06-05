@@ -21,7 +21,7 @@ BASE_DIR = os.path.abspath(
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY_FILE = os.path.join(os.path.dirname(__file__), "../.secret-key.txt")
+SECRET_KEY_FILE = os.path.join(os.path.dirname(__file__), ".secret-key.txt")
 SECRET_KEY = open(SECRET_KEY_FILE, "r").read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -42,10 +42,10 @@ INSTALLED_APPS = [
 
     "EliteDangerousDatabase",
 
-    "µeddb",
-    "µeddb.apps.ships",
-    "µeddb.apps.resources",
-    "µeddb.apps.engineers",
+    "eddb",
+    "eddb.apps.ships",
+    "eddb.apps.resources",
+    "eddb.apps.engineers",
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -65,8 +65,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, "µeddb", "templates"),
-            os.path.join(BASE_DIR, "µeddb", "templates", "eddb")
+            os.path.join(BASE_DIR, "eddb", "templates"),
+            os.path.join(BASE_DIR, "eddb", "templates", "eddb")
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'EliteDangerousDatabase.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, "db.sqlite3"),
+        'NAME': os.path.join(BASE_DIR, "..", "var", "db.sqlite3"),
     }
 }
 

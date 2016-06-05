@@ -3,7 +3,7 @@
 from django.conf.urls import url
 from django.views.generic import ListView, DetailView
 
-from µeddb.apps.resources.models import Resource
+from eddb.apps.resources.models import Resource
 
 app_name = "resources"
 
