@@ -11,6 +11,14 @@ ALLEGIENCE_CHOICES = (
     (3, "Alliance"),
 )
 
+BLUEPRINT_GRADE_CHOICES = (
+    (1, "Grade 1"),
+    (2, "Grade 2"),
+    (3, "Grade 3"),
+    (4, "Grade 4"),
+    (5, "Grade 5"),
+)
+
 
 class Engineer(models.Model):
     """
@@ -40,7 +48,7 @@ class Blueprint(models.Model):
     """
 
     name = models.CharField(max_length=100)
-    grade = models.PositiveSmallIntegerField(validators=[MinValueValidator(1), MaxValueValidator(5)])
+    grade = models.PositiveSmallIntegerField(choices=BLUEPRINT_GRADE_CHOICES)
     module_type = models.ForeignKey("ships.ModuleType", null=True)
 
     def __str__(self):

@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load eddb_tags %}
+
 {% block content %}
     <h1>{{ resource }}
         <small>{{ resource.get_grade_display }} {{ resource.get_type_display }}</small>
@@ -9,26 +11,45 @@
         <div class="lead">{{ resource.description }}</div>
     {% endif %}
 
-    <h2>Sources</h2>
+    <div class="row">
+        <div class="col-sm-9">
+            <h2>Used for Blueprints:</h2>
+            <table class="table">
+                <caption class="sr-only">Blueprints</caption>
 
-    <div>t.b.d.</div>
+                <colgroup>
+                    <col class="name-secondary"/>
+                    <col class="name"/>
+                    <col class="grade"/>
+                    <col class="numeric"/>
+                </colgroup>
 
-    <h2>Used for Modifications:</h2>
-    <table class="table">
-        <caption class="sr-only">Used for Modifications:</caption>
-        <thead>
-            <th>Modification</th>
-            <th>Grade</th>
-            <th>Amount</th>
-        </thead>
-        <tbody>
-            {% for blueprint_requirement in resource.required_for.all %}
-                <tr>
-                    <th><a href="{% url "engineers:blueprint_detail" pk=blueprint_requirement.blueprint.pk %}">{{ blueprint_requirement.blueprint.name }}</a></th>
-                    <td>{{ blueprint_requirement.blueprint.grade }}</td>
-                    <td>{{ blueprint_requirement.amount|default:"n.a." }}</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+                <thead>
+                    <th>Module</th>
+                    <th>Modification</th>
+                    <th>Grade</th>
+                    <th>Amount</th>
+                </thead>
+
+                <tbody>
+                {% for blueprint_requirement in resource.required_for.all %}
+                    <tr>
+                        <td>{{ blueprint_requirement.blueprint.module_type }}</td>
+                        <th>
+                            <a href="{% url "engineers:blueprint_detail" pk=blueprint_requirement.blueprint.pk %}">{{ blueprint_requirement.blueprint.name }}</a>
+                        </th>
+                        <td>{% display_grade blueprint_requirement.blueprint.grade %}</td>
+                        <td>{{ blueprint_requirement.amount|default:"n.a." }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-sm-3">
+            <h2>Sources</h2>
+
+            <div>t.b.d.</div>
+        </div>
+    </div>
 {% endblock %}

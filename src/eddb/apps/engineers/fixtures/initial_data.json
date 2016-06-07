@@ -4,7 +4,33 @@
     "pk": 1,
     "fields": {
       "name": "Felicity Farseer",
-      "description": ""
+      "description": "",
+      "allegience": 0,
+      "location_name": "",
+      "blueprints": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
     }
   },
   {
@@ -12,7 +38,10 @@
     "pk": 2,
     "fields": {
       "name": "Tod 'The Blaster' McQuinn",
-      "description": ""
+      "description": "",
+      "allegience": 0,
+      "location_name": "",
+      "blueprints": []
     }
   },
   {
@@ -20,7 +49,35 @@
     "pk": 3,
     "fields": {
       "name": "The Dweller",
-      "description": ""
+      "description": "",
+      "allegience": 0,
+      "location_name": "",
+      "blueprints": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
     }
   },
   {
@@ -28,7 +85,10 @@
     "pk": 4,
     "fields": {
       "name": "Liz Ryder",
-      "description": ""
+      "description": "",
+      "allegience": 0,
+      "location_name": "",
+      "blueprints": []
     }
   },
   {
@@ -36,7 +96,12 @@
     "pk": 5,
     "fields": {
       "name": "Elvira Martuuk",
-      "description": ""
+      "description": "",
+      "allegience": 0,
+      "location_name": "",
+      "blueprints": [
+        1
+      ]
     }
   },
   {
@@ -44,7 +109,10 @@
     "pk": 6,
     "fields": {
       "name": "Juri Ishmaak",
-      "description": "Juri Ishmaak is an ambush combat specialist whose father was a pilot in a mercenary wing. He followed in his father's footsteps operating with the wing. He believes in careful preparation before any combat. After retiring from combat he set up a base of operations to focus on his passion for engineering."
+      "description": "Juri Ishmaak is an ambush combat specialist whose father was a pilot in a mercenary wing. He followed in his father's footsteps operating with the wing. He believes in careful preparation before any combat. After retiring from combat he set up a base of operations to focus on his passion for engineering.",
+      "allegience": 0,
+      "location_name": "",
+      "blueprints": []
     }
   },
   {
@@ -144,6 +212,375 @@
       "name": "Sturdy Mount",
       "grade": 3,
       "module_type": 34
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 12,
+    "fields": {
+      "name": "Dirty Drive Tuning",
+      "grade": 1,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 13,
+    "fields": {
+      "name": "Dirty Drive Tuning",
+      "grade": 2,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 14,
+    "fields": {
+      "name": "Dirty Drive Tuning",
+      "grade": 3,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 15,
+    "fields": {
+      "name": "Drive Strengthening",
+      "grade": 1,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 16,
+    "fields": {
+      "name": "Drive Strengthening",
+      "grade": 2,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 17,
+    "fields": {
+      "name": "Drive Strengthening",
+      "grade": 3,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 18,
+    "fields": {
+      "name": "Clean Drive Tuning",
+      "grade": 1,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 19,
+    "fields": {
+      "name": "Clean Drive Tuning",
+      "grade": 2,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 20,
+    "fields": {
+      "name": "Clean Drive Tuning",
+      "grade": 3,
+      "module_type": 4
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 21,
+    "fields": {
+      "name": "Blast Resistant Shield Booster",
+      "grade": 1,
+      "module_type": 31
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 22,
+    "fields": {
+      "name": "Heavy Duty Shield Booster",
+      "grade": 1,
+      "module_type": 31
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 23,
+    "fields": {
+      "name": "Kinetic Resistant Shield Booster",
+      "grade": 1,
+      "module_type": 31
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 24,
+    "fields": {
+      "name": "Resistance Augmented Shield Booster",
+      "grade": 1,
+      "module_type": 31
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 25,
+    "fields": {
+      "name": "Thermal Resistant Shield Booster",
+      "grade": 1,
+      "module_type": 31
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 26,
+    "fields": {
+      "name": "Armoured Power Plant",
+      "grade": 1,
+      "module_type": 1
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 27,
+    "fields": {
+      "name": "Overcharged Power Plant",
+      "grade": 1,
+      "module_type": 1
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 28,
+    "fields": {
+      "name": "Low Emissions Power Plant",
+      "grade": 1,
+      "module_type": 1
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 29,
+    "fields": {
+      "name": "High Charge Capacity Power Distributor",
+      "grade": 1,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 30,
+    "fields": {
+      "name": "High Charge Capacity Power Distributor",
+      "grade": 2,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 31,
+    "fields": {
+      "name": "High Charge Capacity Power Distributor",
+      "grade": 3,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 32,
+    "fields": {
+      "name": "High Charge Capacity Power Distributor",
+      "grade": 4,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 33,
+    "fields": {
+      "name": "High Charge Capacity Power Distributor",
+      "grade": 5,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 34,
+    "fields": {
+      "name": "Charge Enhanced Power Distributor",
+      "grade": 1,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 35,
+    "fields": {
+      "name": "Charge Enhanced Power Distributor",
+      "grade": 2,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 36,
+    "fields": {
+      "name": "Charge Enhanced Power Distributor",
+      "grade": 3,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 37,
+    "fields": {
+      "name": "Charge Enhanced Power Distributor",
+      "grade": 4,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 38,
+    "fields": {
+      "name": "Charge Enhanced Power Distributor",
+      "grade": 5,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 39,
+    "fields": {
+      "name": "Engine Focused Power Distributor",
+      "grade": 1,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 40,
+    "fields": {
+      "name": "Engine Focused Power Distributor",
+      "grade": 2,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 41,
+    "fields": {
+      "name": "Engine Focused Power Distributor",
+      "grade": 3,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 42,
+    "fields": {
+      "name": "System Focused Power Distributor",
+      "grade": 1,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 43,
+    "fields": {
+      "name": "System Focused Power Distributor",
+      "grade": 2,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 44,
+    "fields": {
+      "name": "System Focused Power Distributor",
+      "grade": 3,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 45,
+    "fields": {
+      "name": "Weapon Focused Power Distributor",
+      "grade": 1,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 46,
+    "fields": {
+      "name": "Weapon Focused Power Distributor",
+      "grade": 2,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 47,
+    "fields": {
+      "name": "Weapon Focused Power Distributor",
+      "grade": 3,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 48,
+    "fields": {
+      "name": "Shielded Power Distributor",
+      "grade": 1,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 49,
+    "fields": {
+      "name": "Shielded Power Distributor",
+      "grade": 2,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 50,
+    "fields": {
+      "name": "Shielded Power Distributor",
+      "grade": 3,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 51,
+    "fields": {
+      "name": "Shielded Power Distributor",
+      "grade": 4,
+      "module_type": 2
+    }
+  },
+  {
+    "model": "engineers.blueprint",
+    "pk": 52,
+    "fields": {
+      "name": "Shielded Power Distributor",
+      "grade": 5,
+      "module_type": 2
     }
   },
   {
@@ -512,6 +949,1275 @@
     "fields": {
       "blueprint": 11,
       "resource": 88,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 42,
+    "fields": {
+      "blueprint": 12,
+      "resource": 115,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 43,
+    "fields": {
+      "blueprint": 12,
+      "resource": 17,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 44,
+    "fields": {
+      "blueprint": 13,
+      "resource": 115,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 45,
+    "fields": {
+      "blueprint": 13,
+      "resource": 72,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 46,
+    "fields": {
+      "blueprint": 13,
+      "resource": 15,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 47,
+    "fields": {
+      "blueprint": 13,
+      "resource": 81,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 48,
+    "fields": {
+      "blueprint": 14,
+      "resource": 115,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 49,
+    "fields": {
+      "blueprint": 14,
+      "resource": 19,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 50,
+    "fields": {
+      "blueprint": 14,
+      "resource": 71,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 51,
+    "fields": {
+      "blueprint": 14,
+      "resource": 76,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 52,
+    "fields": {
+      "blueprint": 15,
+      "resource": 14,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 53,
+    "fields": {
+      "blueprint": 15,
+      "resource": 113,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 54,
+    "fields": {
+      "blueprint": 16,
+      "resource": 51,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 55,
+    "fields": {
+      "blueprint": 16,
+      "resource": 130,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 56,
+    "fields": {
+      "blueprint": 16,
+      "resource": 114,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 57,
+    "fields": {
+      "blueprint": 16,
+      "resource": 88,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 58,
+    "fields": {
+      "blueprint": 17,
+      "resource": 51,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 59,
+    "fields": {
+      "blueprint": 17,
+      "resource": 130,
+      "amount": 3
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 60,
+    "fields": {
+      "blueprint": 17,
+      "resource": 114,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 61,
+    "fields": {
+      "blueprint": 17,
+      "resource": 23,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 62,
+    "fields": {
+      "blueprint": 18,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 63,
+    "fields": {
+      "blueprint": 18,
+      "resource": 68,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 64,
+    "fields": {
+      "blueprint": 18,
+      "resource": 86,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 65,
+    "fields": {
+      "blueprint": 19,
+      "resource": 115,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 66,
+    "fields": {
+      "blueprint": 19,
+      "resource": 27,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 67,
+    "fields": {
+      "blueprint": 19,
+      "resource": 126,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 68,
+    "fields": {
+      "blueprint": 19,
+      "resource": 124,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 69,
+    "fields": {
+      "blueprint": 19,
+      "resource": 110,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 70,
+    "fields": {
+      "blueprint": 20,
+      "resource": 115,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 71,
+    "fields": {
+      "blueprint": 20,
+      "resource": 27,
+      "amount": 3
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 72,
+    "fields": {
+      "blueprint": 20,
+      "resource": 126,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 73,
+    "fields": {
+      "blueprint": 20,
+      "resource": 124,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 74,
+    "fields": {
+      "blueprint": 20,
+      "resource": 97,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 75,
+    "fields": {
+      "blueprint": 21,
+      "resource": 67,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 76,
+    "fields": {
+      "blueprint": 21,
+      "resource": 64,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 77,
+    "fields": {
+      "blueprint": 22,
+      "resource": 49,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 78,
+    "fields": {
+      "blueprint": 22,
+      "resource": 48,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 79,
+    "fields": {
+      "blueprint": 23,
+      "resource": 67,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 80,
+    "fields": {
+      "blueprint": 23,
+      "resource": 64,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 81,
+    "fields": {
+      "blueprint": 24,
+      "resource": 93,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 82,
+    "fields": {
+      "blueprint": 24,
+      "resource": 48,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 83,
+    "fields": {
+      "blueprint": 24,
+      "resource": 114,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 84,
+    "fields": {
+      "blueprint": 25,
+      "resource": 67,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 85,
+    "fields": {
+      "blueprint": 25,
+      "resource": 64,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 86,
+    "fields": {
+      "blueprint": 26,
+      "resource": 131,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 87,
+    "fields": {
+      "blueprint": 26,
+      "resource": 130,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 88,
+    "fields": {
+      "blueprint": 27,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 89,
+    "fields": {
+      "blueprint": 27,
+      "resource": 27,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 90,
+    "fields": {
+      "blueprint": 27,
+      "resource": 15,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 91,
+    "fields": {
+      "blueprint": 28,
+      "resource": 67,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 92,
+    "fields": {
+      "blueprint": 28,
+      "resource": 53,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 93,
+    "fields": {
+      "blueprint": 29,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 94,
+    "fields": {
+      "blueprint": 29,
+      "resource": 133,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 95,
+    "fields": {
+      "blueprint": 29,
+      "resource": 38,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 96,
+    "fields": {
+      "blueprint": 30,
+      "resource": 115,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 97,
+    "fields": {
+      "blueprint": 30,
+      "resource": 19,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 98,
+    "fields": {
+      "blueprint": 30,
+      "resource": 59,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 99,
+    "fields": {
+      "blueprint": 30,
+      "resource": 96,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 100,
+    "fields": {
+      "blueprint": 30,
+      "resource": 94,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 101,
+    "fields": {
+      "blueprint": 31,
+      "resource": 115,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 102,
+    "fields": {
+      "blueprint": 31,
+      "resource": 19,
+      "amount": 3
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 103,
+    "fields": {
+      "blueprint": 31,
+      "resource": 59,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 104,
+    "fields": {
+      "blueprint": 31,
+      "resource": 96,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 105,
+    "fields": {
+      "blueprint": 31,
+      "resource": 81,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 106,
+    "fields": {
+      "blueprint": 32,
+      "resource": 79,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 107,
+    "fields": {
+      "blueprint": 32,
+      "resource": 112,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 108,
+    "fields": {
+      "blueprint": 32,
+      "resource": 101,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 109,
+    "fields": {
+      "blueprint": 32,
+      "resource": 77,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 110,
+    "fields": {
+      "blueprint": 32,
+      "resource": 81,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 111,
+    "fields": {
+      "blueprint": 33,
+      "resource": 31,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 112,
+    "fields": {
+      "blueprint": 33,
+      "resource": 101,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 113,
+    "fields": {
+      "blueprint": 33,
+      "resource": 78,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 114,
+    "fields": {
+      "blueprint": 33,
+      "resource": 39,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 115,
+    "fields": {
+      "blueprint": 34,
+      "resource": 115,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 116,
+    "fields": {
+      "blueprint": 34,
+      "resource": 17,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 117,
+    "fields": {
+      "blueprint": 35,
+      "resource": 115,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 118,
+    "fields": {
+      "blueprint": 35,
+      "resource": 17,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 119,
+    "fields": {
+      "blueprint": 35,
+      "resource": 46,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 120,
+    "fields": {
+      "blueprint": 35,
+      "resource": 83,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 121,
+    "fields": {
+      "blueprint": 36,
+      "resource": 49,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 122,
+    "fields": {
+      "blueprint": 36,
+      "resource": 79,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 123,
+    "fields": {
+      "blueprint": 36,
+      "resource": 15,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 124,
+    "fields": {
+      "blueprint": 36,
+      "resource": 106,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 125,
+    "fields": {
+      "blueprint": 36,
+      "resource": 99,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 126,
+    "fields": {
+      "blueprint": 37,
+      "resource": 61,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 127,
+    "fields": {
+      "blueprint": 37,
+      "resource": 31,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 128,
+    "fields": {
+      "blueprint": 37,
+      "resource": 16,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 129,
+    "fields": {
+      "blueprint": 37,
+      "resource": 43,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 130,
+    "fields": {
+      "blueprint": 37,
+      "resource": 66,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 131,
+    "fields": {
+      "blueprint": 38,
+      "resource": 31,
+      "amount": 3
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 132,
+    "fields": {
+      "blueprint": 38,
+      "resource": 16,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 133,
+    "fields": {
+      "blueprint": 38,
+      "resource": 43,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 134,
+    "fields": {
+      "blueprint": 38,
+      "resource": 66,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 135,
+    "fields": {
+      "blueprint": 39,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 136,
+    "fields": {
+      "blueprint": 39,
+      "resource": 27,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 137,
+    "fields": {
+      "blueprint": 40,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 138,
+    "fields": {
+      "blueprint": 40,
+      "resource": 27,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 139,
+    "fields": {
+      "blueprint": 40,
+      "resource": 38,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 140,
+    "fields": {
+      "blueprint": 40,
+      "resource": 83,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 141,
+    "fields": {
+      "blueprint": 41,
+      "resource": 27,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 142,
+    "fields": {
+      "blueprint": 41,
+      "resource": 112,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 143,
+    "fields": {
+      "blueprint": 41,
+      "resource": 96,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 144,
+    "fields": {
+      "blueprint": 41,
+      "resource": 83,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 145,
+    "fields": {
+      "blueprint": 42,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 146,
+    "fields": {
+      "blueprint": 42,
+      "resource": 27,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 147,
+    "fields": {
+      "blueprint": 43,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 148,
+    "fields": {
+      "blueprint": 43,
+      "resource": 27,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 149,
+    "fields": {
+      "blueprint": 43,
+      "resource": 38,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 150,
+    "fields": {
+      "blueprint": 43,
+      "resource": 83,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 151,
+    "fields": {
+      "blueprint": 44,
+      "resource": 27,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 152,
+    "fields": {
+      "blueprint": 44,
+      "resource": 112,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 153,
+    "fields": {
+      "blueprint": 44,
+      "resource": 96,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 154,
+    "fields": {
+      "blueprint": 44,
+      "resource": 83,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 155,
+    "fields": {
+      "blueprint": 45,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 156,
+    "fields": {
+      "blueprint": 45,
+      "resource": 27,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 157,
+    "fields": {
+      "blueprint": 46,
+      "resource": 117,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 158,
+    "fields": {
+      "blueprint": 46,
+      "resource": 27,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 159,
+    "fields": {
+      "blueprint": 46,
+      "resource": 38,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 160,
+    "fields": {
+      "blueprint": 46,
+      "resource": 83,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 161,
+    "fields": {
+      "blueprint": 47,
+      "resource": 27,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 162,
+    "fields": {
+      "blueprint": 47,
+      "resource": 112,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 163,
+    "fields": {
+      "blueprint": 47,
+      "resource": 96,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 164,
+    "fields": {
+      "blueprint": 47,
+      "resource": 83,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 165,
+    "fields": {
+      "blueprint": 48,
+      "resource": 131,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 166,
+    "fields": {
+      "blueprint": 48,
+      "resource": 130,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 167,
+    "fields": {
+      "blueprint": 49,
+      "resource": 14,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 168,
+    "fields": {
+      "blueprint": 49,
+      "resource": 113,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 169,
+    "fields": {
+      "blueprint": 49,
+      "resource": 59,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 170,
+    "fields": {
+      "blueprint": 49,
+      "resource": 23,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 171,
+    "fields": {
+      "blueprint": 50,
+      "resource": 14,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 172,
+    "fields": {
+      "blueprint": 50,
+      "resource": 113,
+      "amount": 3
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 173,
+    "fields": {
+      "blueprint": 50,
+      "resource": 59,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 174,
+    "fields": {
+      "blueprint": 50,
+      "resource": 88,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 175,
+    "fields": {
+      "blueprint": 51,
+      "resource": 130,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 176,
+    "fields": {
+      "blueprint": 51,
+      "resource": 114,
+      "amount": 3
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 177,
+    "fields": {
+      "blueprint": 51,
+      "resource": 101,
+      "amount": 2
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 178,
+    "fields": {
+      "blueprint": 51,
+      "resource": 107,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 179,
+    "fields": {
+      "blueprint": 52,
+      "resource": 125,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 180,
+    "fields": {
+      "blueprint": 52,
+      "resource": 25,
+      "amount": 3
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 181,
+    "fields": {
+      "blueprint": 52,
+      "resource": 30,
+      "amount": 1
+    }
+  },
+  {
+    "model": "engineers.blueprintrequirement",
+    "pk": 182,
+    "fields": {
+      "blueprint": 52,
+      "resource": 107,
       "amount": 1
     }
   }

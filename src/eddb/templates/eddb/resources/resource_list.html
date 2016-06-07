@@ -3,27 +3,46 @@
 {% load eddb_tags %}
 
 {% block content %}
-    <table class="table">
-        <colgroup>
-            <col width="" />
-            <col width="200px" />
-            <col width="200px" />
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Resource Name</th>
-                <th>Resource Type</th>
-                <th>Rarity</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for resource in resource_list %}
+    <h1>Resources</h1>
+
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-list table-sortable">
+                <colgroup>
+                    <col width=""/>
+                    <col class="type"/>
+                    <col class="grade"/>
+                    <col class="numeric"/>
+                </colgroup>
+                <thead>
                 <tr>
-                    <th><a href="{% url "resources:resource_detail" pk=resource.pk %}">{{ resource }}</a></th>
-                    <td>{{ resource.get_type_display }}</td>
-                    <td>{% display_grade resource.grade %}</td>
+                    <th>Resource Name</th>
+                    <th>Resource Type</th>
+                    <th>Rarity</th>
+                    <th>Uses</th>
                 </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+                </thead>
+                <tbody>
+                {% for resource in filter %}
+                    <tr>
+                        <th><a href="{% url "resources:resource_detail" pk=resource.pk %}">{{ resource }}</a></th>
+                        <td>{{ resource.get_type_display }}</td>
+                        <td>{% display_grade resource.grade %}</td>
+                        <td>{{ resource.required_for.all.count }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-4">
+            <div class="well">
+                <h3>Filter Blueprints</h3>
+                <form class="form form-vertical" action="" method="get">
+                    {% include "filter_form.html" with form=filter.form %}
+                    <button type="submit" class="btn btn-default btn-block">filter</button>
+                </form>
+            </div>
+        </div>
+    </div>
 {% endblock %}

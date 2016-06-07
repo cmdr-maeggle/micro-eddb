@@ -6,6 +6,25 @@ $icon-font-path: "/static/bootstrap/fonts/bootstrap/";
 
 @warn $icon-font-path;
 
+.table {
+  col.name-secondary { width: 250px; }
+  col.grade { width: 150px; }
+  col.numeric { width: 100px; }
+
+  .numeric {
+    text-align: right;
+  }
+
+  .headerSortUp::after,
+  .headerSortDown::after {
+    font-family: "Glyphicons Halflings";
+    padding-left: $padding-base-horizontal;
+    font-size: $font-size-small;
+  }
+  .headerSortUp::after { content: "\e156"; }
+  .headerSortDown::after { content: "\e155"; }
+}
+
 .form {
   input[type='text'],
   input[type='email'],
@@ -17,6 +36,21 @@ $icon-font-path: "/static/bootstrap/fonts/bootstrap/";
   }
 
   select[multiple] {
-    min-height: 100px;
+    min-height: 200px;
+  }
+
+  option {
+    padding: $padding-base-vertical $padding-base-horizontal;
+  }
+
+  .form-group {
+    ul {
+      @extend .list-unstyled;
+      //@extend .list-group;
+      //
+      //&>li {
+      //  @extend .list-group-item;
+      //}
+    }
   }
 }

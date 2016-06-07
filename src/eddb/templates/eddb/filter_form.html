@@ -1,0 +1,28 @@
+<fieldset>
+    {% if form.non_field_errors %}
+        <div class="alert alert-danger">
+            {{ form.non_field_errors }}
+        </div>
+    {% endif %}
+
+    {% for field in form.visible_fields %}
+        <div class="form-group{% if field.errors %} has-error{% endif %}">
+            <label for="{{ field.id }}" class="control-label">{{ field.label }}</label>
+            {{ field }}
+            {% if field.errors %}
+                <div class="alert alert-danger">
+                    {% for error in field.errors %}
+                        {{ error|escape }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            {% if field.help_text and field.help_text != "Filter" %}
+                <div class="alert alert-info">
+                    {{ field.help_text }}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+
+    {% for field in form.hidden_fields %}{{ field }}{% endfor %}
+</fieldset>

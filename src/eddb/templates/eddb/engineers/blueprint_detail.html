@@ -12,24 +12,11 @@
 
     <div class="jumbotron">
         {# TODO add blueprint effects #}
-        {% lorem %}
+        <h4>here be gauges</h4>
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-md-3">
-            <h2>Engineers</h2>
-            <ul class="list-group">
-                {% for engineer in blueprint.engineers.all %}
-                    <li class="list-group-item">{{ engineer.name }}
-                        {% if engineer.location %}
-                            ({{ engineer.location }})
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-
-        <div class="col-xs-12 col-md-9">
+        <div class="col-sm-9">
             <h2>Required Resources:</h2>
             <table class="table">
                 <caption class="sr-only">Required Resources:</caption>
@@ -56,6 +43,20 @@
                 {% endfor %}
                 </tbody>
             </table>
+        </div>
+
+        <div class="col-sm-3">
+            <h2>Engineers</h2>
+            <ul class="list-group">
+                {% for engineer in blueprint.engineers.all %}
+                    <li class="list-group-item">
+                        <a href="{% url "engineers:engineer_detail" pk=engineer.pk %}">{{ engineer.name }}</a>
+                        {% if engineer.location %}
+                            ({{ engineer.location }})
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 {% endblock %}

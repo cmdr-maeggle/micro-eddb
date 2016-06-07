@@ -17,6 +17,7 @@ class BlueprintAdmin(admin.ModelAdmin):
     ordering = ["name", "grade"]
     list_display = ("module_type", "name", "grade")
     list_display_links = ("name",)
+    list_filter = ("module_type",)
 
     class BlueprintRequirementInline(admin.TabularInline):
         model = BlueprintRequirement
