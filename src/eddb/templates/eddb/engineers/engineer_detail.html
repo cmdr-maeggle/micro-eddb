@@ -5,8 +5,20 @@
 {% block content %}
     <h1>{{ engineer.name }}</h1>
 
+    <h2>Upgrade Types</h2>
+    <ul class="nav nav-pills" role="tablist">
+        {% for module_upgrade in module_upgrades %}
+            <li role="presentation">
+                <span class="label label-default">
+                    {{ module_upgrade.module_name }}
+                    {% display_grade module_upgrade.grade_max %}
+                </span>
+            </li>
+        {% endfor %}
+    </ul>
+
     <h2>Blueprints</h2>
-    <table class="table">
+    <table class="table table-striped table-sortable">
         <caption class="sr-only">Blueprints:</caption>
 
         <colgroup>
@@ -16,9 +28,9 @@
         </colgroup>
 
         <thead>
-            <th>Module</th>
-            <th>Blueprint</th>
-            <th>Grade</th>
+        <th>Module</th>
+        <th>Blueprint</th>
+        <th>Grade</th>
         </thead>
 
         <tbody>

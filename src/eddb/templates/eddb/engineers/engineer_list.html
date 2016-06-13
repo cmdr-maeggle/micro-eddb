@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% load eddb_tags %}
+
+{% block title %}Engineers{% endblock %}
+
+{% block content %}
+    <h1>Engineers</h1>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-list table-sortable">
+                <caption class="sr-only">Engineers</caption>
+
+                <colgroup>
+                    <col/>
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for engineer in engineer_list %}
+                    <tr>
+                        <th>
+                            <a href="{% url "engineers:engineer_detail" pk=engineer.pk %}">{{ engineer }}</a>
+                        </th>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
