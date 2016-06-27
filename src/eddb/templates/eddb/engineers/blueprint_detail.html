@@ -11,8 +11,20 @@
     </h1>
 
     <div class="jumbotron">
-        {# TODO add blueprint effects #}
-        <h4>here be gauges</h4>
+        <dl class="dl-horizontal blueprint-effects">
+            {% for effect in blueprint.effects.primary_effects %}
+                <dt>{{ effect.statistic }}</dt>
+                <dd class="blueprint-effect" data-gain="{% if effect.gain %}1{% endif %}">
+                    <div class="sr-only">
+                        <span class="min">{{ effect.range_min }}</span> &mdash;
+                        <span class="max">{{ effect.range_max }}</span>
+                    </div>
+                </dd>
+            {% endfor %}
+        </dl>
+        {#        {% for effect in blueprint.primary_effects.all %}#}
+        {#            <span class="btn btn-default">{{ effect }}</span>#}
+        {#        {% endfor %}#}
     </div>
 
     <div class="row">
@@ -21,14 +33,14 @@
             <table class="table">
                 <caption class="sr-only">Required Resources:</caption>
                 <colgroup>
-                    <col width="0" class="text-center" />
-                    <col />
-                    <col />
+                    <col width="0" class="text-center"/>
+                    <col/>
+                    <col/>
                 </colgroup>
                 <thead>
-                    <th>Amount</th>
-                    <th>Resource</th>
-                    <th>Description</th>
+                <th>Amount</th>
+                <th>Resource</th>
+                <th>Description</th>
                 </thead>
                 <tbody>
                 {% for requirement in blueprint.requirements.all %}
@@ -36,7 +48,8 @@
                         <td>{{ requirement.amount|default:"n.a." }}</td>
                         <th>
                             <a href="{% url "resources:resource_detail" pk=requirement.resource.pk %}">{{ requirement.resource.name }}</a>
-                            <small>{% display_grade requirement.resource.grade %}</small><br />
+                            <small>{% display_grade requirement.resource.grade %}</small>
+                            <br/>
                         </th>
                         <td>{{ requirement.resource.description }}</td>
                     </tr>

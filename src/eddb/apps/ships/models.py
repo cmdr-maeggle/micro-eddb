@@ -48,6 +48,12 @@ class ModuleType(models.Model):
         return self.name
 
 
+class ModuleStatistic(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.name
+
 # class ShipModule(models.Model):
 #     ship = models.ForeignKey(Ship)
 #     type = models.ForeignKey(ModuleType)

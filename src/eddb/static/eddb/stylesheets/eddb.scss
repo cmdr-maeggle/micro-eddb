@@ -54,3 +54,52 @@ $icon-font-path: "/static/bootstrap/fonts/bootstrap/";
     }
   }
 }
+
+.blueprint-effects {
+  .progress {
+    $progress-bar-label-width: 50px;
+    $progress-bar-label-offset: $progress-bar-label-width * 1.1;
+    $progress-bar-label-padding: 4px;
+    $progress-bar-height: 20px;
+
+    height: $progress-bar-height;
+    position: relative; // relative for .zero-indicator
+
+    .zero-indicator {
+      width: 1px;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      height: $line-height-computed;
+      background: $text-color;
+      z-index: 1000;
+    }
+
+    .progress-bar {
+      font-size: $progress-bar-height;
+      line-height: $progress-bar-height;
+      position: relative;
+    }
+    .progress-bar::before,
+    .progress-bar::after {
+      background: transparentize($badge-bg, 0.5);
+      color: $badge-color;
+      font-size: $progress-bar-height - 2 * $progress-bar-label-padding;
+      line-height: $progress-bar-height - 2 * $progress-bar-label-padding;
+      margin: $progress-bar-label-padding;
+      padding: 0 $progress-bar-label-padding;
+      position: absolute;
+      z-index: 1005;
+    }
+    .progress-bar::before {
+      content: attr(data-min);
+      right: 100%;
+      text-align: right;
+    }
+    .progress-bar::after {
+      content: attr(data-max);
+      left: 100%;
+      text-align: left;
+    }
+  }
+}

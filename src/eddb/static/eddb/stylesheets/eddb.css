@@ -6612,3 +6612,37 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 
 .form option {
   padding: 10px 18px; }
+
+.blueprint-effects .progress {
+  height: 20px;
+  position: relative; }
+  .blueprint-effects .progress .zero-indicator {
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 21px;
+    background: #333333;
+    z-index: 1000; }
+  .blueprint-effects .progress .progress-bar {
+    font-size: 20px;
+    line-height: 20px;
+    position: relative; }
+  .blueprint-effects .progress .progress-bar::before,
+  .blueprint-effects .progress .progress-bar::after {
+    background: rgba(39, 128, 227, 0.5);
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 4px;
+    padding: 0 4px;
+    position: absolute;
+    z-index: 1005; }
+  .blueprint-effects .progress .progress-bar::before {
+    content: attr(data-min);
+    right: 100%;
+    text-align: right; }
+  .blueprint-effects .progress .progress-bar::after {
+    content: attr(data-max);
+    left: 100%;
+    text-align: left; }
