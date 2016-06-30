@@ -1,7 +1,20 @@
 {% extends "base.html" %}
 
-{% block title %}DBOBE is in another castle!{% endblock %}
-
 {% block content %}
-    Here be dragons!
+    <h1>&micro;eddb <small>no spreadsheet love</small></h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2><span class="glyphicon glyphicon-grain"></span> <a href="{% url "resources:index" %}">Resources</a></h2>
+            <p>Become a hoarder today</p>
+        </div>
+        <div class="col-md-4">
+            <h2><span class="glyphicon glyphicon-user"></span> <a href="{% url "engineers:engineer_list" %}">Engineers</a></h2>
+            <p>They just fuck your shit up</p>
+        </div>
+        <div class="col-md-4">
+            <h2><span class="glyphicon glyphicon-cog"></span> <a href="{% url "engineers:blueprint_list" %}">Blueprints</a></h2>
+            <p>The only things engineers can make for you in 3302</p>
+        </div>
+    </div>
 {% endblock %}

@@ -2,6 +2,8 @@
 
 {% load eddb_tags %}
 
+{% block title %}{{ resource }} &mdash; Resources &mdash; {{ block.super }}{% endblock %}
+
 {% block content %}
     <h1>{{ resource }}
         <small>{{ resource.get_grade_display }} {{ resource.get_type_display }}</small>

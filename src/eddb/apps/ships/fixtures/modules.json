@@ -1,0 +1,457 @@
+[
+  {
+    "model": "ships.moduletype",
+    "pk": 1,
+    "fields": {
+      "name": "Frame Shift Drive"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 2,
+    "fields": {
+      "name": "Thrusters"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 3,
+    "fields": {
+      "name": "Shield Booster"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 4,
+    "fields": {
+      "name": "Power Plant"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 5,
+    "fields": {
+      "name": "Frame Shift Drive Interdictor"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 6,
+    "fields": {
+      "name": "Shield Cell Bank"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 7,
+    "fields": {
+      "name": "Shield Generator"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 8,
+    "fields": {
+      "name": "Hull Reinforcement Package"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 9,
+    "fields": {
+      "name": "Mine Launcher"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 10,
+    "fields": {
+      "name": "Missile Rack: Seeker"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 11,
+    "fields": {
+      "name": "Bulkheads"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 12,
+    "fields": {
+      "name": "Torpedo Pylon"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 13,
+    "fields": {
+      "name": "Cannon"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 14,
+    "fields": {
+      "name": "Frag Cannon"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 15,
+    "fields": {
+      "name": "Multi-Cannon"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 16,
+    "fields": {
+      "name": "Railgun"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 17,
+    "fields": {
+      "name": "Cargo Rack"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 18,
+    "fields": {
+      "name": "Power Distributor"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 19,
+    "fields": {
+      "name": "Pulse Laser"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 20,
+    "fields": {
+      "name": "Burst Laser"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 21,
+    "fields": {
+      "name": "Beam Laser"
+    }
+  },
+  {
+    "model": "ships.moduletype",
+    "pk": 22,
+    "fields": {
+      "name": "Plasma Accelerator"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 1,
+    "fields": {
+      "name": "Boot Time"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 2,
+    "fields": {
+      "name": "Thermal Load"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 3,
+    "fields": {
+      "name": "Power Draw"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 4,
+    "fields": {
+      "name": "Integrity"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 5,
+    "fields": {
+      "name": "Mass"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 6,
+    "fields": {
+      "name": "Optimised Mass"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 7,
+    "fields": {
+      "name": "Optimal Multiplier"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 8,
+    "fields": {
+      "name": "Optimal Mass"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 9,
+    "fields": {
+      "name": "Explosive Resistance"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 10,
+    "fields": {
+      "name": "Kinetic Resistance"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 11,
+    "fields": {
+      "name": "Thermal Resistance"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 12,
+    "fields": {
+      "name": "Shield Boost"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 13,
+    "fields": {
+      "name": "Heat Efficiency"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 14,
+    "fields": {
+      "name": "Power Capacity"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 15,
+    "fields": {
+      "name": "Facing Limit"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 16,
+    "fields": {
+      "name": "Range"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 17,
+    "fields": {
+      "name": "Spin Up Time"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 18,
+    "fields": {
+      "name": "Duration"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 19,
+    "fields": {
+      "name": "Shield Reinforcement"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 20,
+    "fields": {
+      "name": "Optimal Hull Mass"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 21,
+    "fields": {
+      "name": "Optimal Strength"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 22,
+    "fields": {
+      "name": "Regeneration Rate (Broken)"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 23,
+    "fields": {
+      "name": "Regeneration Rate"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 24,
+    "fields": {
+      "name": "Distributor Draw"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 25,
+    "fields": {
+      "name": "Hull Boost"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 26,
+    "fields": {
+      "name": "Hull Reinforcement"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 27,
+    "fields": {
+      "name": "Ammo Clip Size"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 28,
+    "fields": {
+      "name": "Ammo Maximum"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 29,
+    "fields": {
+      "name": "Reload Time"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 30,
+    "fields": {
+      "name": "Damage per Second"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 31,
+    "fields": {
+      "name": "Rate Of Fire"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 32,
+    "fields": {
+      "name": "Damage"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 33,
+    "fields": {
+      "name": "Jitter"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 34,
+    "fields": {
+      "name": "Armour Piercing"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 35,
+    "fields": {
+      "name": "Maximum Range"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 36,
+    "fields": {
+      "name": "Burst Size"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 37,
+    "fields": {
+      "name": "Weapons Capacity"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 38,
+    "fields": {
+      "name": "Capacity ENG"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 39,
+    "fields": {
+      "name": "Systems Capacity"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 40,
+    "fields": {
+      "name": "Recharge WEP"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 41,
+    "fields": {
+      "name": "Recharge ENG"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 42,
+    "fields": {
+      "name": "Recharge SYS"
+    }
+  },
+  {
+    "model": "ships.modulestatistic",
+    "pk": 43,
+    "fields": {
+      "name": "Rate of Fire"
+    }
+  }
+]

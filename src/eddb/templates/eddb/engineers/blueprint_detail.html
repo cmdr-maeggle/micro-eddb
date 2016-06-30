@@ -2,6 +2,8 @@
 
 {% load eddb_tags %}
 
+{% block title %}{{ blueprint.name }} &mdash; Blueprints &mdash; {{ block.super }}{% endblock %}
+
 {% block content %}
     <h1>
         <small>{{ blueprint.module_type }}</small>
@@ -9,6 +11,19 @@
         {{ blueprint.name }}
         <small>{% display_grade blueprint.grade %}</small>
     </h1>
+
+    {% with prev_blueprint=blueprint.prev next_blueprint=blueprint.next %}
+        <nav>
+            <ul class="pager">
+                {% if prev_blueprint %}
+                    <li class="previous"><a href="{% url "engineers:blueprint_detail" pk=prev_blueprint.pk %}"><span aria-hidden="true">&larr;</span> previous level</a></li>
+                {% endif %}
+                {% if next_blueprint %}
+                    <li class="next"><a href="{% url "engineers:blueprint_detail" pk=next_blueprint.pk %}">next level <span aria-hidden="true">&rarr;</span></a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    {% endwith %}
 
     <div class="jumbotron">
         <dl class="dl-horizontal blueprint-effects">

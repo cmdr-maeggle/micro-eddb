@@ -27,6 +27,9 @@ class Resource(models.Model):
     Commodities are also used for trading, but that's won't be covered here.
     """
 
+    class Meta(object):
+        ordering = ["name"]
+
     name = models.CharField(max_length=100)
     description = models.TextField(default="", blank=True)
     type = models.CharField(max_length=1, choices=RESOURCE_TYPE_CHOICES, default='m')

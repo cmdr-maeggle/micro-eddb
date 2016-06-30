@@ -2,6 +2,8 @@
 
 {% load eddb_tags %}
 
+{% block title %}Resources &mdash; {{ block.super }}{% endblock %}
+
 {% block content %}
     <h1>Resources</h1>
 
@@ -37,7 +39,7 @@
 
         <div class="col-md-4">
             <div class="well">
-                <h3>Filter Blueprints</h3>
+                <h3>Filter Resources</h3>
                 <form class="form form-vertical" action="" method="get">
                     {% include "filter_form.html" with form=filter.form %}
                     <button type="submit" class="btn btn-default btn-block">filter</button>

@@ -2,6 +2,8 @@
 
 {% load eddb_tags %}
 
+{% block title %}{{ engineer.name }} &mdash; Engineers &mdash; {{ block.super }}{% endblock %}
+
 {% block content %}
     <h1>{{ engineer.name }}</h1>
 

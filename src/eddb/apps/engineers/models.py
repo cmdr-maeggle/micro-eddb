@@ -46,7 +46,7 @@ class Engineer(models.Model):
                            .annotate(module_name=F("module_type__name"))
                            .values("module_name")
                            .annotate(grade_max=Max("grade"))
-                           .order_by("grade_max", "module_name"))
+                           .order_by("-grade_max", "module_name"))
         return module_upgrades
 
 
@@ -55,12 +55,37 @@ class Blueprint(models.Model):
     Blueprints are used to craft upgrades for a ship's module.
     """
 
+    class Meta(object):
+        ordering = ["module_type__name", "name", "grade"]
+
     name = models.CharField(max_length=100)
     grade = models.PositiveSmallIntegerField(choices=BLUEPRINT_GRADE_CHOICES)
     module_type = models.ForeignKey("ships.ModuleType", null=True, on_delete=models.CASCADE)
 
     def __str__(self):
         return "{bp.name}, grade {bp.grade}".format(bp=self)
+
+    def _get_similar(self):
+        return Blueprint.objects.filter(module_type=self.module_type, name=self.name)
+
+    def get_higher_grades(self):
+        return self._get_similar().filter(grade__gt=self.grade).order_by("grade")
+
+    def get_lower_grades(self):
+        return self._get_similar().filter(grade__lt=self.grade).order_by("-grade")
+
+    def next(self):
+        try:
+            return self.get_higher_grades().first()
+        except Blueprint.DoesNotExist:
+            return None
+
+    def prev(self):
+        try:
+            return self.get_lower_grades().first()
+        except Blueprint.DoesNotExist:
+            return None
+
 
 
 class BlueprintRequirement(models.Model):

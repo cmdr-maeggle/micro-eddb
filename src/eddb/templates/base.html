@@ -2,8 +2,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title>{% block title %}Elite Dangerous Database{% endblock %}</title>
+    <meta charset="utf-8"/>
+    <title>{% block title %}&micro;eddb{% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="{% static "eddb/stylesheets/eddb.css" %}"/>
     <script type="text/javascript" src="{% static "jquery/javascripts/jquery-2.2.4.min.js" %}"></script>
     <script type="text/javascript" src="{% static "jquery/javascripts/jquery.tablesorter.min.js" %}"></script>
@@ -23,19 +23,28 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">µeddb</a>
+            <a class="navbar-brand" href="/">&micro;eddb</a>
         </div>
 
         <div class="collapse navbar-collapse" id="site-navbar-collapse">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="{% url "resources:index" %}">Resources</a>
+                    <a href="{% url "resources:index" %}">
+                        <span class="glyphicon glyphicon-grain"></span>
+                        Resources
+                    </a>
                 </li>
                 <li>
-                    <a href="{% url "engineers:engineer_list" %}">Engineers</a>
+                    <a href="{% url "engineers:engineer_list" %}">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                        Engineers
+                    </a>
                 </li>
                 <li>
-                    <a href="{% url "engineers:blueprint_list" %}">Blueprints</a>
+                    <a href="{% url "engineers:blueprint_list" %}">
+                        <span class="glyphicon glyphicon-cog"></span>
+                        Blueprints
+                    </a>
                 </li>
             </ul>
 

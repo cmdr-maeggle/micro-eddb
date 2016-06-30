@@ -1,1342 +1,1352 @@
 [
   {
     "model": "resources.resource",
+    "pk": 1,
     "fields": {
-      "grade": 4,
-      "type": "d",
-      "name": "Aberrant Shield Pattern Analysis",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 1
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "d",
-      "name": "Abnormal Compact Emission Data",
-      "description": "Source: Ship Scanning (Modified ships), Ship Salvage/Wreck"
-    },
-    "pk": 2
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "d",
-      "name": "Adaptive Encryptors Capture",
-      "description": "Source: Mission Reward"
-    },
-    "pk": 3
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "d",
-      "name": "Anomalous Bulk Scan Data",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 4
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "d",
-      "name": "Anomalous FSD Telemetry",
-      "description": "Source: Ship Scanning"
-    },
-    "pk": 5
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "r",
-      "name": "Antimony",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 6
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "r",
-      "name": "Arsenic",
-      "description": "Source: Surface Prospecting, Mining"
-    },
-    "pk": 7
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Articulation Motors",
-      "description": "Source: Mission reward"
-    },
-    "pk": 8
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "d",
-      "name": "Atypical Disrupted Wake Echoes",
-      "description": "Source: Wake Scanning"
-    },
-    "pk": 9
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
-      "name": "Basic Conductors",
-      "description": "Source: Ship Salvage/Wreck"
-    },
-    "pk": 10
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Biotech Conductors",
-      "description": "Source: Mission Reward"
-    },
-    "pk": 11
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Bromellite",
-      "description": "Source: Mining"
-    },
-    "pk": 12
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "r",
-      "name": "Cadmium",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 13
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "r",
-      "name": "Carbon",
-      "description": "Source: Surface Prospecting, Mining (Ice rings)"
-    },
-    "pk": 14
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Chemical Distillery",
-      "description": "Source: Ship Salvage/Wreck"
-    },
-    "pk": 15
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "m",
-      "name": "Chemical Manipulators",
-      "description": "Source: Ship Salvage (Transport ships), Surface POI"
-    },
-    "pk": 16
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Chemical Processors",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 17
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
-      "name": "Chemical Storage Units",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 18
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "r",
-      "name": "Chromium",
-      "description": "Source: Surface Prospecting, Mining (Ice rings)"
-    },
-    "pk": 19
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Classified Scan Databanks",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 20
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "d",
-      "name": "Classified Scan Fragment",
-      "description": "Source: Surface Data Point"
-    },
-    "pk": 21
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Classified Shield Databanks",
-      "description": "Source: Ship Scanning"
-    },
-    "pk": 22
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "CMM Composite",
-      "description": "Source: Markets"
-    },
-    "pk": 23
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
-      "name": "Compact Composites",
-      "description": "Source: Ship Salvage/Wreck, Surface POI"
-    },
-    "pk": 24
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "m",
-      "name": "Compound Shielding",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 25
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Conductive Ceramics",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 26
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Conductive Components",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 27
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Conductive Polymers",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 28
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Configurable Components",
-      "description": "Source: "
-    },
-    "pk": 29
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "m",
-      "name": "Core Dynamics Composites",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 30
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Cracked Industrial Firmware",
-      "description": "Source: Surface Data Point, Mission Reward"
-    },
-    "pk": 31
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
-      "name": "Crystal Shards",
-      "description": "Source: Ship Salvage (Combat ships), Surface POI"
-    },
-    "pk": 32
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "d",
-      "name": "Datamined Wake Exceptions",
-      "description": "Source: Wake Scanning"
-    },
-    "pk": 33
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "d",
-      "name": "Decoded Emission Data",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 34
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "d",
-      "name": "Distorted Shield Cycle Recordings",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 35
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "d",
-      "name": "Divergent Scan Data",
-      "description": "Source: Surface Data Point"
-    },
-    "pk": 36
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "d",
-      "name": "Eccentric Hyperspace Trajectories",
-      "description": "Source: Ship Salvage/Wreck"
-    },
-    "pk": 37
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Electrochemical Arrays",
-      "description": "Source: Ship Salvage (Military&authority ships)"
-    },
-    "pk": 38
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Emergency Power Cells",
-      "description": "Source: Markets near Akhenaten (High Tech/Refinery)"
-    },
-    "pk": 39
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Energy Grid Assembly",
-      "description": "Source: Markets near Stafkarl (Industrial/Refinery)"
-    },
-    "pk": 40
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "d",
-      "name": "Exceptional Scrambled Emission Data",
-      "description": "Source: Ship Scanning (Modified ships), Ship Salvage/Wreck"
-    },
-    "pk": 41
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Exhaust Manifold",
-      "description": "Source: Markets near Run (Industrial/Refinery)"
-    },
-    "pk": 42
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "m",
-      "name": "Exquisite Focus Crystals",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 43
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Filament Composites",
-      "description": "Source: Ship Salvage/Wreck"
-    },
-    "pk": 44
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Flawed Focus Crystals",
-      "description": "Source: Ship Salvage/Wreck"
-    },
-    "pk": 45
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Focus Crystals",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 46
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Galvanising Alloys",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 47
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "r",
-      "name": "Germanium",
-      "description": "Source: Surface Prospecting, Mining"
-    },
-    "pk": 48
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
       "name": "Grid Resistors",
-      "description": "Source: Ship Salvage (Military&authority ships)"
-    },
-    "pk": 49
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Hardware Diagnostic Sensor",
-      "description": "Source: Markets near Lei Jing (High Tech/Refinery)"
-    },
-    "pk": 50
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
+      "description": "Source: Ship Salvage (Military&authority ships)",
       "type": "m",
-      "name": "Heat Conduction Wiring",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 51
+      "grade": 1
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 2,
     "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Heat Conductors",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 52
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
       "name": "Heat Dispersion Plate",
-      "description": "Source: Ship Salvage/Wreck"
-    },
-    "pk": 53
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
+      "description": "Source: Ship Salvage/Wreck",
       "type": "m",
-      "name": "Heat Dissipation Plate",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 54
+      "grade": 2
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 3,
     "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Heat Exchangers",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 55
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Heat Resistant Ceramics",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 56
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Heat Vanes",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 57
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Heatsink Interlink",
-      "description": "Source: Markets near Myrbat (Industrial/Refinery)"
-    },
-    "pk": 58
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "High Density Composites",
-      "description": "Source: Ship Salvage (Military&authority ships)"
-    },
-    "pk": 59
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "HN Shock Mount",
-      "description": "Source: Markets"
-    },
-    "pk": 60
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Hybrid Capacitors",
-      "description": "Source: Ship Salvage (Military&authority ships)"
-    },
-    "pk": 61
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "m",
-      "name": "Imperial Shielding",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 62
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Improvised Components",
-      "description": "Source: Systems in civil unrest"
-    },
-    "pk": 63
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "d",
-      "name": "Inconsistent Shield Soak Analysis",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 64
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Insulating Membrane",
-      "description": "Source: Markets"
-    },
-    "pk": 65
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Ion Distributor",
-      "description": "Source: Markets near 70 Tauri (Industrial/Extraction)"
-    },
-    "pk": 66
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "r",
-      "name": "Iron",
-      "description": "Source: Surface Prospecting, Mining (Ice rings)"
-    },
-    "pk": 67
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "d",
-      "name": "Irregular Emission Data",
-      "description": "Source: Ship Salvage/Wreck, Mission Reward"
-    },
-    "pk": 68
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Magnetic Emitter Coil",
-      "description": "Source: Markets near Leesti (Industrial/Refinery)"
-    },
-    "pk": 69
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "r",
-      "name": "Manganese",
-      "description": "Source: Surface Prospecting, Mining"
-    },
-    "pk": 70
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Mechanical Components",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 71
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Mechanical Equipment",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 72
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
-      "name": "Mechanical Scrap",
-      "description": "Source: Ship Salvage (Transport ships)"
-    },
-    "pk": 73
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "r",
-      "name": "Mercury",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 74
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Micro Controllers",
-      "description": "Source: Markets"
-    },
-    "pk": 75
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Micro-Weave Cooling Hoses",
-      "description": "Source: Mission reward"
-    },
-    "pk": 76
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "m",
-      "name": "Military Grade Alloys",
-      "description": "Source: Ship Salvage (Military&authority ships), Mission Reward"
-    },
-    "pk": 77
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Military Supercapacitors",
-      "description": "Source: Systems in war"
-    },
-    "pk": 78
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "d",
-      "name": "Modified Consumer Firmware",
-      "description": "Source: Surface Data Point, Ship Salvage/Wreck, Mission Reward"
-    },
-    "pk": 79
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Modified Embedded Firmware",
-      "description": "Source: Surface Data Point"
-    },
-    "pk": 80
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Modular Terminals",
-      "description": "Source: Mission reward"
-    },
-    "pk": 81
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "r",
-      "name": "Molybdenum",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 82
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Nanobreakers",
-      "description": "Source: Mission reward"
-    },
-    "pk": 83
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Neofabric Insulation",
-      "description": "Source: Mission reward"
-    },
-    "pk": 84
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "r",
-      "name": "Nickel",
-      "description": "Source: Surface Prospecting, Mining (Ice rings)"
-    },
-    "pk": 85
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "r",
-      "name": "Niobium",
-      "description": "Source: Surface Prospecting, Mining"
-    },
-    "pk": 86
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Open Symmetric Keys",
-      "description": "Source: Surface Data Point, Ship Salvage/Wreck"
-    },
-    "pk": 87
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Osmium",
-      "description": "Source: Mining"
-    },
-    "pk": 88
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "d",
-      "name": "Peculiar Shield Frequency Data",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 89
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Pharmaceutical Isolators",
-      "description": "Source: "
-    },
-    "pk": 90
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Pharmaceutil Isolators",
-      "description": "Source: "
-    },
-    "pk": 91
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Phase Alloys",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 92
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "r",
-      "name": "Phosphorus",
-      "description": "Source: Surface Prospecting, Mining (Ice rings)"
-    },
-    "pk": 93
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Platinum",
-      "description": "Source: Mining"
-    },
-    "pk": 94
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "r",
-      "name": "Polonium",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 95
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "m",
-      "name": "Polymer Capacitors",
-      "description": "Source: Ship Salvage (Military&authority ships)"
-    },
-    "pk": 96
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Power Converter",
-      "description": "Source: Markets near Lakota (Industrial/Extraction)"
-    },
-    "pk": 97
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Power Transfer Bus",
-      "description": "Source: Markets"
-    },
-    "pk": 98
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Praseodymium",
-      "description": "Source: Mining"
-    },
-    "pk": 99
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Precipitated Alloys",
-      "description": "Source: Ship Salvage (Military&authority ships)"
-    },
-    "pk": 100
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "m",
-      "name": "Proprietary Composites",
-      "description": "Source: Ship Salvage/Wreck"
-    },
-    "pk": 101
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Proto Heat Radiators",
-      "description": "Source: Systems in economic boom, Ship Salvage/Wreck"
-    },
-    "pk": 102
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "m",
-      "name": "Proto Light Alloys",
-      "description": "Source: Systems in economic boom, Ship Salvage/Wreck"
-    },
-    "pk": 103
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 5,
-      "type": "m",
-      "name": "Proto Radiolic Alloys",
-      "description": "Source: Systems in economic boom, Ship Salvage/Wreck"
-    },
-    "pk": 104
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Radiation Baffle",
-      "description": "Source: Markets near Heget (Industrial/Extraction)"
-    },
-    "pk": 105
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "m",
-      "name": "Refined Focus Crystals",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 106
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Reinforced Mounting Plate",
-      "description": "Source: Markets near Eurybia (Extraction/Refinery)"
-    },
-    "pk": 107
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
-      "type": "r",
-      "name": "Ruthenium",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 108
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
-      "name": "Salvaged Alloys",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 109
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "c",
-      "name": "Samarium",
-      "description": "Source: Mining"
-    },
-    "pk": 110
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Security Firmware Patch",
-      "description": "Source: "
-    },
-    "pk": 111
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "r",
-      "name": "Selenium",
-      "description": "Source: Surface Prospecting, Mining"
-    },
-    "pk": 112
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
-      "type": "m",
-      "name": "Shield Emitters",
-      "description": "Source: Ship Salvage (Combat ships), Surface POI"
-    },
-    "pk": 113
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Shielding Sensors",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 114
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "d",
-      "name": "Specialised Legacy Firmware",
-      "description": "Source: Ship Salvage/Wreck, Mission Reward"
-    },
-    "pk": 115
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Strange Wake Solutions",
-      "description": "Source: Wake Scanning, Mission Reward"
-    },
-    "pk": 116
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "r",
       "name": "Sulphur",
-      "description": "Source: Surface Prospecting, Mining (Ice rings)"
-    },
-    "pk": 117
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Tagged Encryption Codes",
-      "description": "Source: Surface Data Point"
-    },
-    "pk": 118
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 4,
+      "description": "Source: Surface Prospecting, Mining (Ice rings)",
       "type": "r",
-      "name": "Technetium",
-      "description": "Source: Surface Prospecting, Ship Salvage/Wreck"
-    },
-    "pk": 119
+      "grade": 1
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 4,
     "fields": {
-      "grade": 3,
+      "name": "Hybrid Capacitors",
+      "description": "Source: Ship Salvage (Military&authority ships)",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 5,
+    "fields": {
+      "name": "Heat Exchangers",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 6,
+    "fields": {
+      "name": "Micro Controllers",
+      "description": "Source: Markets",
       "type": "c",
-      "name": "Telemetry Suite",
-      "description": "Source: Mission reward"
-    },
-    "pk": 120
+      "grade": 3
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 7,
     "fields": {
-      "grade": 4,
-      "type": "r",
-      "name": "Tellurium",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 121
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 1,
-      "type": "m",
-      "name": "Tempered Alloys",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 122
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "m",
-      "name": "Thermic Alloys",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 123
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "r",
-      "name": "Tin",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 124
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "r",
-      "name": "Tungsten",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 125
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
+      "name": "Security Firmware Patch",
+      "description": "Source: ",
       "type": "d",
-      "name": "Unexpected Emission Data",
-      "description": "Source: Ship Scanning (Combat ships)"
-    },
-    "pk": 126
+      "grade": 3
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 8,
     "fields": {
-      "grade": 2,
-      "type": "d",
-      "name": "Unidentified Scan Archives",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 127
+      "name": "Hardware Diagnostic Sensor",
+      "description": "Source: Markets near Lei Jing (High Tech/Refinery)",
+      "type": "c",
+      "grade": 3
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 9,
     "fields": {
-      "grade": 5,
-      "type": "m",
-      "name": "Unknown Fragment",
-      "description": "Source: Destroyed Unknown Artefact"
-    },
-    "pk": 128
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 3,
-      "type": "d",
-      "name": "Untypical Shield Scans",
-      "description": "Source: Ship Scanning (Modified ships)"
-    },
-    "pk": 129
-  },
-  {
-    "model": "resources.resource",
-    "fields": {
-      "grade": 2,
+      "name": "Chromium",
+      "description": "Source: Surface Prospecting, Mining (Ice rings)",
       "type": "r",
-      "name": "Vanadium",
-      "description": "Source: Surface Prospecting, Mining (Ice rings)"
-    },
-    "pk": 130
+      "grade": 2
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 10,
     "fields": {
-      "grade": 1,
+      "name": "Electrochemical Arrays",
+      "description": "Source: Ship Salvage (Military&authority ships)",
       "type": "m",
-      "name": "Worn Shield Emitters",
-      "description": "Source: Ship Salvage (Combat ships)"
-    },
-    "pk": 131
+      "grade": 2
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 11,
     "fields": {
-      "grade": 4,
+      "name": "Heat Vanes",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 12,
+    "fields": {
+      "name": "Modified Embedded Firmware",
+      "description": "Source: Surface Data Point",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 13,
+    "fields": {
+      "name": "Selenium",
+      "description": "Source: Surface Prospecting, Mining",
       "type": "r",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 14,
+    "fields": {
+      "name": "Polymer Capacitors",
+      "description": "Source: Ship Salvage (Military&authority ships)",
+      "type": "m",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 15,
+    "fields": {
+      "name": "Proto Heat Radiators",
+      "description": "Source: Systems in economic boom, Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 16,
+    "fields": {
+      "name": "Radiation Baffle",
+      "description": "Source: Markets near Heget (Industrial/Extraction)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 17,
+    "fields": {
+      "name": "Atypical Disrupted Wake Echoes",
+      "description": "Source: Wake Scanning",
+      "type": "d",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 18,
+    "fields": {
+      "name": "Chemical Processors",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 19,
+    "fields": {
+      "name": "Arsenic",
+      "description": "Source: Surface Prospecting, Mining",
+      "type": "r",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 20,
+    "fields": {
+      "name": "Praseodymium",
+      "description": "Source: Mining",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 21,
+    "fields": {
       "name": "Yttrium",
-      "description": "Source: Surface Prospecting"
-    },
-    "pk": 132
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 4
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 22,
     "fields": {
-      "grade": 2,
-      "type": "r",
-      "name": "Zinc",
-      "description": "Source: Surface Prospecting, Mining"
-    },
-    "pk": 133
+      "name": "Modular Terminals",
+      "description": "Source: Mission reward",
+      "type": "c",
+      "grade": 3
+    }
   },
   {
     "model": "resources.resource",
+    "pk": 23,
     "fields": {
-      "grade": 2,
+      "name": "Anomalous FSD Telemetry",
+      "description": "Source: Ship Scanning",
+      "type": "d",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 24,
+    "fields": {
+      "name": "Chemical Distillery",
+      "description": "Source: Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 25,
+    "fields": {
+      "name": "Energy Grid Assembly",
+      "description": "Source: Markets near Stafkarl (Industrial/Refinery)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 26,
+    "fields": {
+      "name": "Strange Wake Solutions",
+      "description": "Source: Wake Scanning, Mission Reward",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 27,
+    "fields": {
+      "name": "Chemical Manipulators",
+      "description": "Source: Ship Salvage (Transport ships), Surface POI",
+      "type": "m",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 28,
+    "fields": {
+      "name": "Polonium",
+      "description": "Source: Surface Prospecting",
       "type": "r",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 29,
+    "fields": {
+      "name": "Magnetic Emitter Coil",
+      "description": "Source: Markets near Leesti (Industrial/Refinery)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 30,
+    "fields": {
+      "name": "Nickel",
+      "description": "Source: Surface Prospecting, Mining (Ice rings)",
+      "type": "r",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 31,
+    "fields": {
+      "name": "Shield Emitters",
+      "description": "Source: Ship Salvage (Combat ships), Surface POI",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 32,
+    "fields": {
+      "name": "Carbon",
+      "description": "Source: Surface Prospecting, Mining (Ice rings)",
+      "type": "r",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 33,
+    "fields": {
+      "name": "Filament Composites",
+      "description": "Source: Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 34,
+    "fields": {
+      "name": "Shielding Sensors",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 35,
+    "fields": {
+      "name": "Insulating Membrane",
+      "description": "Source: Markets",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 36,
+    "fields": {
+      "name": "Micro-Weave Cooling Hoses",
+      "description": "Source: Mission reward",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 37,
+    "fields": {
+      "name": "Vanadium",
+      "description": "Source: Surface Prospecting, Mining (Ice rings)",
+      "type": "r",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 38,
+    "fields": {
+      "name": "High Density Composites",
+      "description": "Source: Ship Salvage (Military&authority ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 39,
+    "fields": {
+      "name": "Compound Shielding",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 40,
+    "fields": {
+      "name": "Bromellite",
+      "description": "Source: Mining",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 41,
+    "fields": {
+      "name": "Tungsten",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 42,
+    "fields": {
+      "name": "Proprietary Composites",
+      "description": "Source: Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 43,
+    "fields": {
+      "name": "Imperial Shielding",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 44,
+    "fields": {
+      "name": "Specialised Legacy Firmware",
+      "description": "Source: Ship Salvage/Wreck, Mission Reward",
+      "type": "d",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 45,
+    "fields": {
+      "name": "Mechanical Equipment",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 46,
+    "fields": {
+      "name": "Mechanical Components",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 47,
+    "fields": {
+      "name": "Heat Conduction Wiring",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 48,
+    "fields": {
+      "name": "Osmium",
+      "description": "Source: Mining",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 49,
+    "fields": {
+      "name": "CMM Composite",
+      "description": "Source: Markets",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 50,
+    "fields": {
+      "name": "Irregular Emission Data",
+      "description": "Source: Ship Salvage/Wreck, Mission Reward",
+      "type": "d",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 51,
+    "fields": {
+      "name": "Niobium",
+      "description": "Source: Surface Prospecting, Mining",
+      "type": "r",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 52,
+    "fields": {
+      "name": "Conductive Components",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 53,
+    "fields": {
+      "name": "Unexpected Emission Data",
+      "description": "Source: Ship Scanning (Combat ships)",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 54,
+    "fields": {
+      "name": "Tin",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 55,
+    "fields": {
+      "name": "Samarium",
+      "description": "Source: Mining",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 56,
+    "fields": {
+      "name": "Power Converter",
+      "description": "Source: Markets near Lakota (Industrial/Extraction)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 57,
+    "fields": {
+      "name": "Iron",
+      "description": "Source: Surface Prospecting, Mining (Ice rings)",
+      "type": "r",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 58,
+    "fields": {
+      "name": "Inconsistent Shield Soak Analysis",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 59,
+    "fields": {
+      "name": "Germanium",
+      "description": "Source: Surface Prospecting, Mining",
+      "type": "r",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 60,
+    "fields": {
+      "name": "Phosphorus",
+      "description": "Source: Surface Prospecting, Mining (Ice rings)",
+      "type": "r",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 61,
+    "fields": {
+      "name": "Worn Shield Emitters",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 62,
+    "fields": {
+      "name": "Mechanical Scrap",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 63,
+    "fields": {
+      "name": "Tagged Encryption Codes",
+      "description": "Source: Surface Data Point",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 64,
+    "fields": {
+      "name": "Distorted Shield Cycle Recordings",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 65,
+    "fields": {
+      "name": "Modified Consumer Firmware",
+      "description": "Source: Surface Data Point, Ship Salvage/Wreck, Mission Reward",
+      "type": "d",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 66,
+    "fields": {
       "name": "Zirconium",
-      "description": "Source: Surface Prospecting, Mining"
-    },
-    "pk": 134
+      "description": "Source: Surface Prospecting, Mining",
+      "type": "r",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 67,
+    "fields": {
+      "name": "Mercury",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 68,
+    "fields": {
+      "name": "Focus Crystals",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 69,
+    "fields": {
+      "name": "Precipitated Alloys",
+      "description": "Source: Ship Salvage (Military&authority ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 70,
+    "fields": {
+      "name": "Refined Focus Crystals",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 71,
+    "fields": {
+      "name": "Power Transfer Bus",
+      "description": "Source: Markets",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 72,
+    "fields": {
+      "name": "Reinforced Mounting Plate",
+      "description": "Source: Markets near Eurybia (Extraction/Refinery)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 73,
+    "fields": {
+      "name": "HN Shock Mount",
+      "description": "Source: Markets",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 74,
+    "fields": {
+      "name": "Molybdenum",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 75,
+    "fields": {
+      "name": "Galvanising Alloys",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 76,
+    "fields": {
+      "name": "Manganese",
+      "description": "Source: Surface Prospecting, Mining",
+      "type": "r",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 77,
+    "fields": {
+      "name": "Phase Alloys",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 78,
+    "fields": {
+      "name": "Conductive Ceramics",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 79,
+    "fields": {
+      "name": "Proto Light Alloys",
+      "description": "Source: Systems in economic boom, Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 80,
+    "fields": {
+      "name": "Zinc",
+      "description": "Source: Surface Prospecting, Mining",
+      "type": "r",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 81,
+    "fields": {
+      "name": "Military Supercapacitors",
+      "description": "Source: Systems in war",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 82,
+    "fields": {
+      "name": "Thermic Alloys",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 83,
+    "fields": {
+      "name": "Technetium",
+      "description": "Source: Surface Prospecting, Ship Salvage/Wreck",
+      "type": "r",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 84,
+    "fields": {
+      "name": "Telemetry Suite",
+      "description": "Source: Mission reward",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 85,
+    "fields": {
+      "name": "Cracked Industrial Firmware",
+      "description": "Source: Surface Data Point, Mission Reward",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 86,
+    "fields": {
+      "name": "Articulation Motors",
+      "description": "Source: Mission reward",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 87,
+    "fields": {
+      "name": "Heatsink Interlink",
+      "description": "Source: Markets near Myrbat (Industrial/Refinery)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 88,
+    "fields": {
+      "name": "Cadmium",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 89,
+    "fields": {
+      "name": "Conductive Polymers",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 90,
+    "fields": {
+      "name": "Proto Radiolic Alloys",
+      "description": "Source: Systems in economic boom, Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 91,
+    "fields": {
+      "name": "Neofabric Insulation",
+      "description": "Source: Mission reward",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 92,
+    "fields": {
+      "name": "Platinum",
+      "description": "Source: Mining",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 93,
+    "fields": {
+      "name": "Improvised Components",
+      "description": "Source: Systems in civil unrest",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 94,
+    "fields": {
+      "name": "Configurable Components",
+      "description": "Source: ",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 95,
+    "fields": {
+      "name": "Pharmaceutical Isolators",
+      "description": "Source: ",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 96,
+    "fields": {
+      "name": "Exhaust Manifold",
+      "description": "Source: Markets near Run (Industrial/Refinery)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 97,
+    "fields": {
+      "name": "Decoded Emission Data",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 98,
+    "fields": {
+      "name": "Antimony",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 99,
+    "fields": {
+      "name": "Emergency Power Cells",
+      "description": "Source: Markets near Akhenaten (High Tech/Refinery)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 100,
+    "fields": {
+      "name": "Nanobreakers",
+      "description": "Source: Mission reward",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 101,
+    "fields": {
+      "name": "Exquisite Focus Crystals",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 102,
+    "fields": {
+      "name": "Ion Distributor",
+      "description": "Source: Markets near 70 Tauri (Industrial/Extraction)",
+      "type": "c",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 103,
+    "fields": {
+      "name": "Core Dynamics Composites",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 104,
+    "fields": {
+      "name": "Military Grade Alloys",
+      "description": "Source: Ship Salvage (Military&authority ships), Mission Reward",
+      "type": "m",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 105,
+    "fields": {
+      "name": "Ruthenium",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 106,
+    "fields": {
+      "name": "Untypical Shield Scans",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 107,
+    "fields": {
+      "name": "Aberrant Shield Pattern Analysis",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 108,
+    "fields": {
+      "name": "Eccentric Hyperspace Trajectories",
+      "description": "Source: Ship Salvage/Wreck",
+      "type": "d",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 109,
+    "fields": {
+      "name": "Open Symmetric Keys",
+      "description": "Source: Surface Data Point, Ship Salvage/Wreck",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 110,
+    "fields": {
+      "name": "Atypical Encryption Archives",
+      "description": "",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 111,
+    "fields": {
+      "name": "Abnormal Compact Emission Data",
+      "description": "Source: Ship Scanning (Modified ships), Ship Salvage/Wreck",
+      "type": "d",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 112,
+    "fields": {
+      "name": "Adaptive Encryptors Capture",
+      "description": "Source: Mission Reward",
+      "type": "d",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 113,
+    "fields": {
+      "name": "Anomalous Bulk Scan Data",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 114,
+    "fields": {
+      "name": "Basic Conductors",
+      "description": "Source: Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 115,
+    "fields": {
+      "name": "Biotech Conductors",
+      "description": "Source: Mission Reward",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 116,
+    "fields": {
+      "name": "Chemical Storage Units",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 117,
+    "fields": {
+      "name": "Classified Scan Databanks",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 118,
+    "fields": {
+      "name": "Classified Scan Fragment",
+      "description": "Source: Surface Data Point",
+      "type": "d",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 119,
+    "fields": {
+      "name": "Classified Shield Databanks",
+      "description": "Source: Ship Scanning",
+      "type": "d",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 120,
+    "fields": {
+      "name": "Compact Composites",
+      "description": "Source: Ship Salvage/Wreck, Surface POI",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 121,
+    "fields": {
+      "name": "Crystal Shards",
+      "description": "Source: Ship Salvage (Combat ships), Surface POI",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 122,
+    "fields": {
+      "name": "Datamined Wake Exceptions",
+      "description": "Source: Wake Scanning",
+      "type": "d",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 123,
+    "fields": {
+      "name": "Divergent Scan Data",
+      "description": "Source: Surface Data Point",
+      "type": "d",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 124,
+    "fields": {
+      "name": "Exceptional Scrambled Emission Data",
+      "description": "Source: Ship Scanning (Modified ships), Ship Salvage/Wreck",
+      "type": "d",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 125,
+    "fields": {
+      "name": "Flawed Focus Crystals",
+      "description": "Source: Ship Salvage/Wreck",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 126,
+    "fields": {
+      "name": "Heat Conductors",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 127,
+    "fields": {
+      "name": "Heat Dissipation Plate",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 128,
+    "fields": {
+      "name": "Heat Resistant Ceramics",
+      "description": "Source: Ship Salvage (Transport ships)",
+      "type": "m",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 129,
+    "fields": {
+      "name": "Peculiar Shield Frequency Data",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 5
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 130,
+    "fields": {
+      "name": "Pharmaceutil Isolators",
+      "description": "Source: ",
+      "type": "m",
+      "grade": 3
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 131,
+    "fields": {
+      "name": "Salvaged Alloys",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 132,
+    "fields": {
+      "name": "Tellurium",
+      "description": "Source: Surface Prospecting",
+      "type": "r",
+      "grade": 4
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 133,
+    "fields": {
+      "name": "Tempered Alloys",
+      "description": "Source: Ship Salvage (Combat ships)",
+      "type": "m",
+      "grade": 1
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 134,
+    "fields": {
+      "name": "Unidentified Scan Archives",
+      "description": "Source: Ship Scanning (Modified ships)",
+      "type": "d",
+      "grade": 2
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 135,
+    "fields": {
+      "name": "Unknown Fragment",
+      "description": "Source: Destroyed Unknown Artefact",
+      "type": "m",
+      "grade": 5
+    }
   }
 ]
